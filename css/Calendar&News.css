@@ -153,6 +153,56 @@
     font-size:.8em;
   }
   
-  
-  
+}
+
+
+/* --------------------------  News.html       News.html ----------------------- */
+
+
+.albisteOrokorra {
+  display: flex;
+  max-width: 70%;
+  margin: auto;
+  padding: 1em;
+
+}
+
+.albistea {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 29%;
+  margin: auto;
+  padding: 1em;
+
+}
+
+.albistea:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.albisteaTitulua {
+  text-align: justify;
+}
+
+.albisteaArgazkia {
+  max-width: 100%;
+}
+
+.albistea a link {
+  text-decoration: none;
+
+}
+
+.albistea a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.albisteaArgazkia:hover {
+  -ms-transform: scale(1.08);
+  /* IE 9 */
+  -webkit-transform: scale(1.08);
+  /* Safari 3-8 */
+  transform: scale(1.08);
 }
