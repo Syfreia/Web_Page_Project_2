@@ -1,7 +1,7 @@
 
 # Web Page for Project 2
 
-All elements used as logos, brands, equipment and others do not belong to us. 
+All elements used as logos, brands, equipment and others do not belong to us. All the project is in Basque. 
 
 
 This is a preview of the Index.html page
