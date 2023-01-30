@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/logStyle.css">
+    <link rel="stylesheet" href="../css/mainStyle.css">
+    <link rel="stylesheet" href="../css/prueba.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <title>Log/Registrer</title>
+  </head>
+
+<body>
+
+  <nav class="navBar">
+
+    <div class="topnav" id="myTopnav">
+
+      <a href="../index.html">HOME</a>
+      <a href="../html/albisteak.html">ALBISTEAK</a>
+      <a href="../html/denda.html">DENDA</a>
+      <a href="../html/egutegia.html">EGUTEGIA</a>
+
+      <div class="dropdown-fix">
+
+        <button class="dropbtn-fix">GALERIA
+          <i class="fa fa-caret-down"></i>
+        </button>
+
+        <div class="dropdown-fix-content">
+
+          <a href="../html/galeria.html">Argazkiak</a>
+          <a href="../html/BideoGaleria.html">Bideoak</a>
+
+        </div>
+
+      </div>
+
+      <a href="../html/log.html">LOG</a>
+      <a href="../html/registrer.html">REGISTER</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <a href="#" class="active">KONTAKTATU</a>
+
+    </div>
+    
+  </nav>
+
+      <section>
+
+        <article>
+
+          <form action="/submit" method="post">
+
+            <label for="name">Izena:</label>
+
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="Abizena">Abizena:</label>
+
+            <input type="text" id="Abizena" name="Abizena" required>
+            <br><br>
+            <label for="Kexa">Kexa:</label>
+
+            <input type="text" id="Kexa" name="Kexa" class="kexa-input">
+            <br><br>
+            <label for="gender">Generoa:</label>
+
+            <input type="radio" id="Gizona" name="Generoa" value="Gizona">
+
+            <label for="male">Gizona</label>
+
+            <input type="radio" id="Emakumea" name="Generoa" value="Emakumea">
+
+            <label for="female">Emakumea</label>
+
+            <input type="radio" id="Beste Bat" name="Generoa" value="Beste Bat">
+
+            <label for="other">Beste Bat</label>
+            <br><br>
+            <label for="Herrialdea">Herrialdea:</label>
+
+            <select id="Herrialdea" name="Herrialdea">
+
+              <option value="Argentina">Argentina</option>
+
+              <option value="Brasila">Brasila</option>
+
+              <option value="Txile">Txile</option>
+
+              <option value="Kolombia">Kolombia</option>
+
+              <option value="Ekiadorea">Ekuadorea</option>
+
+              <option value="Espainia">Espainia</option>
+
+            </select>
+            <br><br>
+            <label for="terms">Terminoak eta Kondizioak:</label>
+
+            <input type="checkbox" id="terms" name="terms" required>
+            <br><br>
+            <input type="submit" value="bidali">
+
+          </form>
+
+        </article>
+      
+      </section>
+  
+  </body>
+
+</html>
+      

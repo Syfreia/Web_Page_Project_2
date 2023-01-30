@@ -1,0 +1,63 @@
+.titulua{
+    margin:auto;
+    max-width: 70%;
+    background-color:#000000b2;
+    color: white;
+}  
+  
+.titulua h1{
+    padding: 1em;
+}
+.container{
+    max-width: 70%;
+
+    display: flex;   
+    flex-wrap: wrap;
+    
+}
+
+.container .videos{
+    width: 20%;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
+}
+
+.container .videos video{
+    width: 90%;
+    height: 100px;
+    margin: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container .videos video:nth-child(1){
+    margin-top: 0;
+}
+
+.container .videos video:hover,
+.container .videos .active{
+    transform: scale(1.06);
+    border: 3px solid blue;
+}
+
+.container .main-video{
+    width: 75%;
+    padding: 10px;
+    
+}
+
+.container .main-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid blue;
+}
+.audio{
+    color: black;
+    max-width: 100%;
+    margin: auto;
+}

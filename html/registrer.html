@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/logStyle.css">
+  <link rel="stylesheet" href="../css/mainStyle.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+  <title>Log/Registrer</title>
+</head>
+
+<body>
+            <!-- nabigazioa -->
+
+  <nav class="navBar">
+
+    <div class="topnav" id="myTopnav">
+
+      <a href="../index.html">HOME</a>
+      <a href="../html/albisteak.html">ALBISTEAK</a>
+      <a href="../html/denda.html">DENDA</a>
+      <a href="../html/egutegia.html">EGUTEGIA</a>
+
+      <div class="dropdown-fix">
+
+        <button class="dropbtn-fix">GALERIA
+          <i class="fa fa-caret-down"></i>
+        </button>
+
+        <div class="dropdown-fix-content">
+
+          <a href="../html/galeria.html">Argazkiak</a>
+          <a href="../html/BideoGaleria.html">Bideoak</a>
+
+        </div>
+
+      </div>
+
+      <a href="../html/log.html">LOG</a>
+      <a href="../html/registrer.html">REGISTER</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+
+      <a href="../html/formularioa.html">KONTAKTATU</a>
+
+    </div>
+    
+  </nav>
+
+          <!-- nabigazioa -->
+<section>
+  <!-- formularioa -->
+  <form action="/action_page.php">
+
+    <article class="container">
+
+      <h1>Register</h1>
+
+      <p>Please fill in this form to create an account.</p><hr>
+      
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+      <label for="email"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" id="name" required>
+
+      <label for="email"><b>Surname</b></label>
+      <input type="text" placeholder="Enter Surname" name="surname" id="surname" required>
+
+      <label for="email"><b>ID number</b></label>
+      <input type="text" placeholder="Enter ID number" name="idNumber" id="idNumber" required><br><br>
+
+      <label for="birthday"><b>Birthday: </b></label>
+      <input type="date" id="birthday" name="birthday" required><br>
+
+      <label for="phone"><b>Phone</b></label>
+      <input type="text" placeholder="Enter phone number" name="phone" id="phone" required><br>
+
+      <label for="team"><b>Choose a team:</b></label>
+      
+      <select id="team" name="team">
+
+        <option value="Sondika Nets">Sondika Nets</option>
+        <option value="Baskonia Celtics">Baskonia Celtics</option>
+        <option value="Durango Raptors">Durango Raptors</option>
+        <option value="Galdakao Warriors">Galdakao Warriors</option>
+        <option value="Gernika Clippers">Gernika Clippers</option>
+        <option value="Arrigorriaga Suns">Arrigorriaga Suns</option>
+        <option value="Ugao Lakers">Ugao Lakers</option>
+        <option value="Derio Kings">Derio Kings</option>
+        
+        </datalist>
+      
+      </select><br><br>
+
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><hr>
+      
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+      <button type="submit" class="registerbtn">Register</button>
+
+    </article>
+
+    <article class="container signin">
+
+      <p>Already have an account? <a href="../html/log.html">Sign in</a>.</p>
+
+    </article>
+
+  </form>
+
+</section>
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <img src="../img/logoDark.png">
+
+      <p class="footer-links">
+        <a href="../index.html" class="link-1">Home</a>
+
+        <a href="../html/albisteak.html">Albisteak</a>
+
+        <a href="../html/denda.html">Denda</a>
+
+        <a href="../html/egutegia.html">Egutegia</a>
+
+        <a href="../html/galeria.html">Galeria</a>
+
+        <a href="../html/log.html">Sign-in</a>
+      </p>
+
+      <p class="footer-company-name">SuperNenas © 2022</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Travesía "c" de Uribarri 3</span> Bilbao, Bizkaia</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+0034 666 555 666</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@supernenas.com">support@supernenas.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>Guri buruz: </span>
+        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
+        vehicula sit amet.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+  
+</body>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</html>

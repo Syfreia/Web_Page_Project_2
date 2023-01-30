@@ -1,0 +1,47 @@
+.general{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding-top: 3em;
+}
+
+.dendaMenu {
+  float: left;
+  padding: 1em;
+  background-color:#000000b2;
+  height: fit-content;
+  color: white;
+  margin-left: 5%;
+  font-size: 14px;
+}
+.main-header__container_2{
+margin-top: 2em;
+}
+
+
+.main-header__container{
+    display: flex;
+    align-items: center;
+}
+.icon-menu{
+    font-size: 1.5em;
+    border: 1px solid #f27207;
+    display: block;
+    padding: 10px 25px;
+}
+table, td, th{
+    border:5px solid #333;
+}
+table {
+  padding: 0px;
+  align-items: center;
+  margin:auto;
+  border-collapse: collapse;
+  max-width: 50%;
+  }
+.tabla{
+  max-width: 75%;
+}
+.tabla img{
+  max-width: 25%;
+}
