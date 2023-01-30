@@ -2,6 +2,7 @@
 # Web Page for Project 2
 
 All elements used as logos, brands, equipment and others do not belong to us. All the project is in Basque. 
+You can see the projecct using the folowing link: https://syfreia.github.io/Web_Page_Project_2/
 
 
 This is a preview of the Index.html page
