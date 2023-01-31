@@ -10,7 +10,7 @@
 .event-calendar a {
   text-decoration:none;
   color:#181718;
-  
+
 
 }
 
@@ -205,4 +205,81 @@
   -webkit-transform: scale(1.08);
   /* Safari 3-8 */
   transform: scale(1.08);
+}
+
+
+/* ----------------------------  Pop UP Tikets        Pop Up Tikets --------------------------------- */
+
+.Pop_Up_modal {
+  max-width: 800px;
+  margin: 14% auto;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(-45deg, #f6e122, #e4660b,#f6e122 , #e4660b);/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  border-radius: 50px;
+}
+
+.Pop h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.t-event {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.778);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.778);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.t-event h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.t-event p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.t-event-description {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.ticket-price {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.buy_ticket {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #e38126;
+  color: white;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 30% 60%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 30% 60%;
+  }
+}
+
+.P_vs {
+
+  opacity: 100;
+
 }

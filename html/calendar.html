@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/Main.css">
-    <link rel="stylesheet" href="../css/Calendar&News.css">
+    <link rel="stylesheet" href="../css/Cal-tikets&News.css">
     <link rel="icon" type="image/x-icon" href="../img/espn-nba-logo.png">
     <title>EGUTEGIA</title>
 </head>
@@ -64,7 +64,6 @@
 
             <a href="../index.html">HOME</a>
             <a href="../html/news.html">ALBISTEAK</a>
-            <a href="../html/tikets.html">DENDA</a>
             <a href="../html/calendar.html" class="active">EGUTEGIA</a>
 
             <div class="dropdown-fix">
@@ -111,8 +110,10 @@
             <div class="events-body">
 
                 <ul>
+
                     <li>
-                        <a href="">
+
+                        <a  href="#" onclick="abrete_sesamo()" class="pop_up">
 
                             <div class="event-left-content">
 
@@ -127,7 +128,6 @@
                                     </div>
 
                                     <div class="event-date"> Aza 05, 2022</div>
-
                                     <div class="event-location"> Bilbo</div>
 
                                 </div>
@@ -137,7 +137,6 @@
                             <div class="event-icon">
 
                                 <div class="month">aza </div>
-
                                 <div class="date">05 </div>
 
                             </div>
@@ -149,7 +148,7 @@
 
                     <li>
                         
-                        <a href="">
+                        <a  href="#" onclick="abrete_sesamo()" class="pop_up">
 
                             <div class="event-left-content">
 
@@ -164,7 +163,6 @@
                                     </div>
 
                                     <div class="event-date"> Aza 8, 2022</div>
-
                                     <div class="event-location"> Donostia</div>
 
                                 </div>
@@ -183,7 +181,7 @@
                     </li>
 
                     <li>
-                        <a href="">
+                        <a  href="#" onclick="abrete_sesamo()" class="pop_up">
 
                             <div class="event-left-content">
 
@@ -198,7 +196,6 @@
                                     </div>
 
                                     <div class="event-date"> Aza 8, 2022</div>
-
                                     <div class="event-location"> Basauri</div>
 
                                 </div>
@@ -208,8 +205,106 @@
                             <div class="event-icon">
 
                                 <div class="month">aza </div>
-
                                 <div class="date">08 </div>
+
+                            </div>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a  href="#" onclick="abrete_sesamo()" class="pop_up">
+
+                            <div class="event-left-content">
+
+                                <div class="title-event">
+
+                                    <div class="taldeak">
+
+                                        <h2> Baskonia Celtics</h2>
+                                        <h1> VS</h1>
+                                        <h2> Durango Raptors</h2>
+
+                                    </div>
+
+                                    <div class="event-date"> Aza 05, 2022</div>
+                                    <div class="event-location"> Bilbo</div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="event-icon">
+
+                                <div class="month">aza </div>
+                                <div class="date">05 </div>
+
+                            </div>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a  href="#" onclick="abrete_sesamo()" class="pop_up">
+
+                            <div class="event-left-content">
+
+                                <div class="title-event">
+
+                                    <div class="taldeak">
+
+                                        <h2> Baskonia Celtics</h2>
+                                        <h1> VS</h1>
+                                        <h2> Durango Raptors</h2>
+
+                                    </div>
+
+                                    <div class="event-date"> Aza 05, 2022</div>
+                                    <div class="event-location"> Bilbo</div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="event-icon">
+
+                                <div class="month">aza </div>
+                                <div class="date">05 </div>
+
+                            </div>
+
+                        </a>
+
+                    </li>
+
+                    <li>
+                        <a  href="#" onclick="abrete_sesamo()" class="pop_up">
+
+                            <div class="event-left-content">
+
+                                <div class="title-event">
+
+                                    <div class="taldeak">
+
+                                        <h2> Baskonia Celtics</h2>
+                                        <h1> VS</h1>
+                                        <h2> Durango Raptors</h2>
+
+                                    </div>
+
+                                    <div class="event-date"> Aza 05, 2022</div>
+                                    <div class="event-location"> Bilbo</div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="event-icon">
+
+                                <div class="month">aza </div>
+                                <div class="date">05 </div>
 
                             </div>
 
@@ -225,6 +320,37 @@
         
     </article>
 
+    <dialog class="Pop_Up_modal">
+
+        <h1>Ticket Erosketa</h1>
+
+        <div class="t-event">
+
+          <h2>Aukeratu Partidaren data:</h2>
+          
+          <select id="P_vs" name="Partidak!">
+
+            <option value="Partida1">Baskonia Celtics VS Durango Raptors</option>
+
+            <option value="partida2">Durango Raptors VS Baskonia Celtics</option>
+
+
+          </select>
+
+            <p class=".t-event-description">   
+                Jaso ondoren, 48 orduko epean itzuli ahal izango da, % 100eko itzulketa egiteko.
+                48 orduko epeari amorrua ematen badio, itzulketa % 50ekoa baino ez da izango.
+                Eskerrik asko erosteagatik!
+            </p>
+            
+            <p class="ticket-price">Ticket-aren balioa: 50€</p>
+          
+          <button class="buy_ticket" onclick="cierrate_sesamo()">Buy Ticket</button>
+
+        </div>
+
+    </dialog>
+
 </section>
 
     <footer class="footer-distributed">
@@ -237,8 +363,6 @@
                 <a href="../index.html" class="link-1">Home</a>
 
                 <a href="../html/news.html">Albisteak</a>
-
-                <a href="../html/tikets.html">Denda</a>
 
                 <a href="../html/calendar.html">Egutegia</a>
 
@@ -296,6 +420,21 @@
 </body>
 
 <script>
+    function abrete_sesamo() {
+        
+        const modal_popup =  document.querySelector(".Pop_Up_modal");
+
+        modal_popup.showModal();
+        // abrete_sesamo.addEventListener("click", ()=>{modal_popup.showModal();})
+        // cierrate_sesamo.addEventListener("click", ()=>{modal_popup.close();})
+
+    }
+    function cierrate_sesamo() {
+        
+        const modal_popup =  document.querySelector(".Pop_Up_modal");
+
+        modal_popup.close();
+    }
     function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
