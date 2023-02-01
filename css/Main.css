@@ -15,7 +15,7 @@ body {
     background-color: white;
 }
 .Header{
-    width: 84%;
+    width: 100%;
     margin: auto;
     display: flex;
 }
@@ -25,15 +25,19 @@ body {
 
 .Logo {
     display: flex;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em;
-    align-items: flex-end;
-    max-width: 50%;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    align-items: center;
+    width: 49%;
     margin: auto;
 }
 
 .Header img {
+
     max-width: 10%;
+    padding-right: 10px;
+    padding-left: 20px;
 }
 
 .Header form {
@@ -43,10 +47,9 @@ body {
 
 .DendaLog {
     display: flex;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em;
-    align-items: flex-end;
-    max-width: 50%;
+    padding-left: 30%;
+    align-items: center;
+    width: 49%;
     margin: auto;
 }
 
@@ -60,7 +63,7 @@ body {
     text-decoration: none;
 }
 
-.denda {
+/* .denda {
     float: right;
     display: flex;
 
@@ -87,7 +90,7 @@ body {
 }
 .dendaZnb p{
     margin-top: 18%;
-}
+} */
 
 
 .navBar {
@@ -131,14 +134,30 @@ body {
         display: none;
     }
 
+    .Header {
+        width: 100%;
+    }
+
     .Header form {
         display: block;
         float: none;
+        padding-bottom: 3px;
     }
 
     .topnav a.icon {
         float: right;
         display: block;
+    }
+
+    .DendaLog {
+        max-width: 50%;
+        padding-left: 42px;
+        padding-top: 30px;
+    }
+
+    .Logo img {
+        max-width: 25%;
+        height: auto;
     }
 }
 
@@ -497,6 +516,12 @@ text-align: center;
     max-width: 30%;
 }
 
+.indexContainer{
+    margin: auto;
+    max-width: 70%;
+    text-align: justify;
+}
+
 
 @media only screen and (max-width:800px) {
 
@@ -521,10 +546,6 @@ text-align: center;
        
     }
 }
-.indexContainer{
-    margin: auto;
-    max-width: 70%;
-    text-align: justify;
-}
+
 
 

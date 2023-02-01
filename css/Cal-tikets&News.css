@@ -153,6 +153,9 @@
     font-size:.8em;
   }
   
+  .Pop_Up_modal {
+    width: fit-content;
+  }
 }
 
 
@@ -278,8 +281,3 @@
   }
 }
 
-.P_vs {
-
-  opacity: 100;
-
-}
