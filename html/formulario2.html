@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/formulario2.css">
+</head>
+<body>
+    <form action="submit-survey.php" method="post">
+        <h3>Encuesta de satisfacción</h3>
+       <br> <label for="name">Nombre:</label>
+       <input type="radio" id="provideName" name="identification" value="provideName" onclick="showName()">
+       <input type="text" id="name" name="name" style="display:none">       
+        <br>
+        <label for="anonymous">Anónimo</label>
+        <input type="radio" id="anonymous" name="identification" value="anonymous" onclick="hideName()">    
+        
+        <br>
+      
+        <h4>¿Cómo calificaría su experiencia en general con nuestro servicio?</h4>
+          <input type="range" list="rating" id="rating" min="1" max="5">
+  <datalist id="rating">
+    <option value="1">
+    <option value="2">
+    <option value="3">
+    <option value="4">
+    <option value="5">
+    <option value="6">
+    <option value="7">
+    <option value="8">
+    <option value="9">
+    <option value="10">
+
+  </datalist>
+  <br>
+      
+        <h4>¿Recomendaría nuestro servicio a un amigo o colega?</h4>
+        <label for="recommend-yes">Sí</label>
+        <input type="radio" id="recommend-yes" name="recommend" value="yes" onclick="hideNo()">
+        
+        <label for="recommend-no">No</label>
+        <input type="radio" id="recommend-no" name="recommend" value="no" onclick="showNo()">
+        <input type="text" id="no" name="no" style="display:none">
+      
+        <h4>Comentarios adicionales:</h4>
+        <textarea id="comments" name="comments"></textarea>
+      
+        <input type="submit" value="Enviar encuesta">
+      </form>
+<script>
+    function showName() {
+      document.getElementById("name").style.display = "block";
+    }
+
+    function hideName() {
+      document.getElementById("name").style.display = "none";
+    }
+
+    function showNo() {
+      document.getElementById("no").style.display = "block";
+    }
+
+    function hideNo() {
+      document.getElementById("no").style.display = "none";
+    }
+</script>
+</body>
+</html>
+
+
+
+  
