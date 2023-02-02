@@ -20,37 +20,36 @@ body {
     display: flex;
 }
 .Header input{
-    max-width: 100px;
+    max-width: 110px;
+    
 }
 
 .Logo {
     display: flex;
-    padding: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
     align-items: center;
     width: 49%;
-    margin: auto;
 }
 
-.Header img {
-
-    max-width: 10%;
-    padding-right: 10px;
-    padding-left: 20px;
+.Logo img {
+    max-width: 9%;
+    padding-right: 0.5%;
+    padding-left: 1%;
 }
 
-.Header form {
-    margin-left: 2em;
-
+.Logo form {
+    margin-left: 10%;
 }
 
 .DendaLog {
-    display: flex;
-    padding-left: 30%;
-    align-items: center;
+    display: inline-flex;
+    padding-right: 5%;
+    flex-direction:   row-reverse;
     width: 49%;
     margin: auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .logReg {
@@ -104,7 +103,6 @@ body {
 }
 
 .topnav a {
-
     float: left;
     display: block;
     color: #f2f2f2;
@@ -138,9 +136,8 @@ body {
         width: 100%;
     }
 
-    .Header form {
-        display: block;
-        float: none;
+    .Logo form {
+        display: flex;
         padding-bottom: 3px;
     }
 
@@ -156,6 +153,7 @@ body {
     }
 
     .Logo img {
+        padding: 0%;
         max-width: 25%;
         height: auto;
     }

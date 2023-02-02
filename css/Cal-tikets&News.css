@@ -164,9 +164,10 @@
 
 .albisteOrokorra {
   display: flex;
-  max-width: 70%;
-  margin: auto;
-  padding: 1em;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 5%;
+  padding: 3%;
 
 }
 
@@ -175,7 +176,7 @@
   transition: 0.3s;
   width: 29%;
   margin: auto;
-  padding: 1em;
+  padding: 1%;
 
 }
 
@@ -208,6 +209,20 @@
   -webkit-transform: scale(1.08);
   /* Safari 3-8 */
   transform: scale(1.08);
+}
+
+@media only screen and (max-width:600px) {
+  
+  .albisteOrokorra{
+    max-width: 90%;
+    margin: 0%;
+  }
+
+  .albistea {
+    width: 100%;
+    margin: 6%;
+  }
+
 }
 
 
