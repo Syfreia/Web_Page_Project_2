@@ -55,7 +55,7 @@ body {
 .logReg {
     font-size: 12px;
     align-content: center;
-    margin-right: 3em;
+    margin-right: 10%;
 }
 .logReg a{
     color: #333;
@@ -146,9 +146,16 @@ body {
     }
 
     .DendaLog {
-        max-width: 50%;
-        padding-left: 10%;
-        padding-top: 4%;
+        /* max-width:10%; */
+        padding-left: 60px;
+        margin-right: 1%;
+    }
+
+
+    .logReg{
+        
+        /* background-color: #333; */
+        padding-left: 6%;
     }
 
     .Logo img {
