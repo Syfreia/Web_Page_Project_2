@@ -93,7 +93,7 @@ body {
 
 
 .navBar {
-    background-color: #333;
+    background-color: rgb(0, 107, 183);
 }
 
 .topnav {
@@ -117,7 +117,7 @@ body {
 }
 
 .topnav a.active {
-    background-color: #f27207;
+    background-color: rgb(0, 68, 117);
     color: white;
 }
 
