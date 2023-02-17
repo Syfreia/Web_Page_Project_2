@@ -83,17 +83,17 @@
   <article class="contact" >
     
     <form action="submit-survey.php" method="post">
-        <h3>Encuesta de satisfacción</h3>
-       <br> <label for="name">Nombre:</label>
+        <h3>Gogobetetasun-inkesta</h3>
+       <br> <label for="name">Izena:</label>
        <input type="radio" id="provideName" name="identification" value="provideName" onclick="showName()">
        <input type="text" id="name" name="name" style="display:none">       
         <br>
-        <label for="anonymous">Anónimo</label>
+        <label for="anonymous">Anonimo</label>
         <input type="radio" id="anonymous" name="identification" value="anonymous" onclick="hideName()">    
         
         <br>
       
-        <h4>¿Cómo calificaría su experiencia en general con nuestro servicio?</h4>
+        <h4>Nola kalifikatuko zenuke, oro har, zure esperientzia gure zerbitzuarekin?</h4>
           <input type="range" list="rating" id="rating" min="1" max="5" class="">
   <datalist id="rating">
     <option value="1">
@@ -110,18 +110,18 @@
   </datalist>
   <br>
       
-        <h4>¿Recomendaría nuestro servicio a un amigo o colega?</h4>
-        <label for="recommend-yes">Sí</label>
+        <h4>Gomendatuko zenioke gure zerbitzua lagun edo lankide bati?</h4>
+        <label for="recommend-yes">Bai</label>
         <input type="radio" id="recommend-yes" name="recommend" value="yes" onclick="hideNo()">
         
-        <label for="recommend-no">No</label>
+        <label for="recommend-no">Ez</label>
         <input type="radio" id="recommend-no" name="recommend" value="no" onclick="showNo()">
         <input type="text" id="no" name="no" style="display:none">
       
-        <h4>Comentarios adicionales:</h4>
+        <h4>Iruzkin gehigarriak:</h4>
         <textarea id="comments" name="comments"></textarea>
       
-        <input type="submit" value="Enviar encuesta">
+        <input type="submit" value="Bidali inkesta">
       </form>
 
       </article>
