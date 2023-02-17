@@ -115,19 +115,19 @@
     
 }
 
-.event-calendar .event-icon .month,
-.event-calendar .event-icon .date {
+.event-calendar .event-icon+.month,
+.event-calendar .event-icon+.date {
   display:block;
 }
 
-.event-calendar .event-icon .month {
+.event-calendar .event-icon+.month {
   text-transform:uppercase;
   font-weight:bold;
   font-size:1.1em;
   margin-top:5px
 }
 
-.event-calendar .event-icon .date {
+.event-calendar .event-icon+.date {
   font-size:1.1em;
   font-weight:bold;
   
@@ -140,11 +140,11 @@
     width:100%;
     margin:0;
   }
-  .event-calendar .heading-title h1 {
+  .event-calendar .heading-title+h1 {
     font-size:1em;
   }
   
-  .event-calendar .title-event h2 {
+  .event-calendar .title-event+h2 {
     font-size:.9em;
   }
   
@@ -228,7 +228,7 @@
   margin: 14% auto;
   padding: 20px;
   color: white;
-  background: linear-gradient(-45deg, #f6e122, #e4660b,#f6e122 , #e4660b);/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+  background: linear-gradient(-45deg, #f62222, #1356ff, #f62222 , #1356ff);/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   border-radius: 50px;
@@ -275,8 +275,19 @@
   border-radius: 20px;
   cursor: pointer;
   font-size: 16px;
-  background-color: #e38126;
+  background-color: #14f53d;
   color: white;
+}
+
+.cancel{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #de0000;
+  color: white;
+  margin-left: 70%;
 }
 
 @keyframes gradient {
